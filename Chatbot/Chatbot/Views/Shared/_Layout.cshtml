@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    
+    <link rel="stylesheet" href="../../Content/css/new_elements.css">
+    <link rel="stylesheet" href="../../Content/css/style.css">
+
+    <script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('article');
+			document.createElement('footer');
+			document.createElement('aside');
+		</script>
+</head>
+
+<body>
+    <header>
+			<a href="#">
+				<img src="~/Content/img/logo.png" alt="logo">
+			</a>
+			
+			<nav id="mainmenu">	
+				<ul>
+					<li><span><a href="#" class="highlight">Home</a></span></li>
+					<li><span><a href="#">Primitive Type</a></span></li>				
+					<li><span><a href="#">Array</a></span></li>
+					<li><span><a href="#">Internet Service</a></span></li>
+				</ul>
+			</nav>
+		</header>	
+
+		<div id="home_content">
+			@RenderBody()
+		</div>
+		
+		<footer>
+			<p><small>&copy; 2015 ChatBot. Created by <a href="#" title="Ilia Valchenko Blog">Ilia Valchenko</a></small></p>
+		</footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

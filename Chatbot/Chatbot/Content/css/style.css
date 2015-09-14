@@ -1,0 +1,217 @@
+@font-face {
+font-family:'BauhausC_Light_otf';
+src: url('../fonts/BauhausC_Light.otf');
+}
+
+@font-face {
+font-family:'BauhausC_Light_ttf';
+src: url('../fonts/BauhausC_Light.ttf');
+}
+
+@font-face {
+font-family:'Europe_otf';
+src: url('../fonts/Europe.otf');
+}
+
+@font-face {
+font-family:'Europe_ttf';
+src: url('../fonts/Europe.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	min-width: 980px;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 1.5em;
+}
+
+header:after, header:before {
+  content: '';
+  display: table;
+}
+
+header a img {
+	display: block;
+	width: 4.8em;
+	margin: 0 auto;
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
+	border: none; /*IE border*/
+}
+
+#mainmenu {
+  position: relative;
+  overflow:hidden;
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 1.4em;
+	padding-bottom: 1.2em;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+#mainmenu ul {
+	list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+    left:50%;
+    float:left;
+}
+
+#mainmenu ul li {
+    position:relative;
+    left:-50%;
+    float:left;
+	color: #e7e7e7;
+	margin-left: 1.4em;
+}
+
+#mainmenu ul li a {
+  display:block;
+  text-decoration:none;
+	font-family: BauhausC_Light_otf, BauhausC_Light_ttf;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+.highlight {
+	font-weight: bold;
+	border-bottom: 0.145em solid #000000;
+	padding-bottom: 0.1em;
+}
+
+#mainmenu ul li a:hover {
+    color: #7f7f7f;
+}
+
+footer {
+	width: 95%;
+	margin: 0 auto;
+	/*margin-top: 3.3%;*/
+	padding-bottom: 6.6%;
+	padding-top: 10px;
+	font-family: Europe_otf, Europe_ttf;
+	border-top: 1px solid #DBDBDB;
+}
+
+footer p {
+	width: 55%;
+	float: left;
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+footer a:hover {
+	color: #7f7f7f;
+
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.google {
+	background-image: url('../img/social/black2.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.google:hover {
+	background-image: url('../img/social/white2.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+.insta {
+	background-image: url('../img/social/black3.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.insta:hover {
+	background-image: url('../img/social/white3.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+.twitter {
+	background-image: url('../img/social/black4.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.twitter:hover {
+	background-image: url('../img/social/white4.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+/*** Update style for WCF Lab 12.09.15 ***/
+
+.home-article {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.home-article h1 {
+	text-align: center;
+}
+
+.home-article div {
+	text-align: center;
+	padding: 10px;
+}
+
+.home-article img {
+	width: 550px;
+}
