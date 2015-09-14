@@ -1,0 +1,6 @@
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\obj\Debug\WcfServiceLab1.csprojResolveAssemblyReference.cache
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\bin\WcfServiceLab1.dll.config
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\bin\WcfServiceLab1.dll
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\bin\WcfServiceLab1.pdb
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\obj\Debug\WcfServiceLab1.dll
+c:\users\ilia\documents\visual studio 2013\Projects\WcfServiceLab1\WcfServiceLab1\obj\Debug\WcfServiceLab1.pdb
